@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+     <h2 style="text-align: center; font-family:Arial, Helvetica, sans-serif">Personal profile</h2>
+     <hr>
+     <h3 >Name:Roghith NM</h3>
+     <h3>Email:roghith2000nm@gmail.com</h3>
+     <h3>Phone:1234567806</h3>
+     <h3>Address: no 55/1 A perumal koil street ,Naalur minjur-601203</h3>
+  <hr>
+     <h3 style="text-align: center;">Profile:</h3>
+     <hr>
+
+     <p>A  passionate and eager individual ready to bring fresh ideas and a strong work ethic to a dynamic team.Looking to apply my skills,learn from experienced professionals, and contributes to the success of the organization while growing in a challenging and rewarding environment.</p>
+     <br>
+     <br>
+     <hr>
+     
+
+
+
+     <!-- <h3>Education:</h3>
+     <hr>
+
+     <p><b>University of madras</b></p>
+     <p>Msc cyber forensic and information security</p>   <p style="text-align: right;">2021</p> -->
+     
+
+     <h3 style="text-align: center;">Myself:</h3>
+     <hr>
+     <p> I am Roghith .I from minjur and i compeleted my bachelors in kcs kasi nadar college in 2021 which in korukupet.
+        after the masters in University of madras in 2023 which in chepak. I decided to fouse on my career in fron end developer.
+        and my short time goal is full stack developer.
+
+     </p>
+
+
+
+     <img src="/hd-a5u9zq0a0ymy2dug.jpg" alt="natural " width="300px " >
+
+     <br><br><hr>
+
+
+     <p style="text-align: center;"><b>
+        Hobbies:
+      </b></p>
+
+<hr>
+
+<ul>
+    <li>Playing Cricket</li>
+    <li>Dancing </li>
+    <li>singing</li>
+    <li>Hanging with friends</li>
+    
+</ul>
+
+
+</body>
+</html>

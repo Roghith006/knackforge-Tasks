@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+<body>
+    <h2>Registration form</h2>
+    <hr>
+
+
+    <form>
+       
+        <div>
+        <label for="name">Fullname:</label>
+        <input type="text" placeholder="Enter the Name" name="name"><br>
+
+
+        <label for="Email">Email:</label>
+        <input type="text" placeholder="Enter the Email" name="Email"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter the password" name="password"><br>
+
+        <label>Gender:</label><br>
+    
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="male">Male</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="female">Female</label>
+      
+
+
+         <h4>Skills</h4>
+       
+        <input type="checkbox" value="Bike">
+        <label for="vehicle1"> HTML</label><br>
+        <input type="checkbox" value="Car">
+        <label for="vehicle2"> CSS</label><br>
+        <input type="checkbox" value="Boat">
+        <label for="vehicle3"> Javascript</label><br><br>
+
+
+
+
+        <label for="country">Country:</label>
+        <select>
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="australia">Australia</option>
+            <option value="japan">japan</option>
+            <option value="china">China</option>
+        </select><br><br>
+
+
+
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+</body>
+
+</html>
