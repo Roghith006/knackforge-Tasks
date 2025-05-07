@@ -9,98 +9,98 @@
 </head>
 
 <body>
-    <h2>All Input types</h2>
-    <hr>
-    <form>
+   
+
+    <!-- <form>
         <div>
             <table>
 
                 <tr>
-                    <td>Fullname:</td>
-                    <td> <input type="text" placeholder="Enter the Name" name="name"></td>
+                    <td>Fullname :</td>
+                    <td > <input type="text"    placeholder="Enter the Name" name="name"></td>
                 </tr>
                 <tr>
-                    <td>Email:</td>
-                    <td> <input type="text" placeholder="Enter the Email" name="Email"><br>
+                    <td>Email :</td>
+                    <td > <input type="text"   placeholder="Enter the Email" name="Email"><br>
                     </td>
                 </tr>
                 <tr>
-                    <td>Password:
-                    <td><input type="password" placeholder="Enter the password" name="password"><br>
+                    <td>Password :
+                    <td  ><input type="password"  placeholder="Enter the password" name="password"><br>
                     </td>
                 </tr>
                 <tr>
-                    <td>Age:</td>
-                    <td><input type="number" placeholder="Enter the age" name="age"></td>
+                    <td>Age :</td>
+                    <td  ><input type="number"    placeholder="Enter the age" name="age" value="0" min="0"></td>
                 </tr>
 
                 <tr>
-                    <td>Gender:</td>
-                    <td><input type="radio" id="html" name="fav_language" value="HTML">
+                    <td>Gender :</td>
+                    <td  ><input type="radio" id="html"  name="fav_language" value="HTML">
                         <label for="male">Male</label><br>
-                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <input type="radio" id="css"   name="fav_language" value="CSS">
                         <label for="female">Female</label></td>
                 </tr>
 
 
                 <tr>
-                    <td>checkbox:</td>
-                    <td> <input type="checkbox"><br></td>
+                    <td>checkbox :</td>
+                    <td  > <input type="checkbox"  ><br></td>
                 </tr>
 
 
                 <tr>
-                    <td>Select the color:</td>
-                    <td> <input type="color" id="favcolor" name="favcolor"></td>
+                    <td>Select the color :</td>
+                    <td > <input type="color" id="favcolor"  name="favcolor"></td>
                 </tr>
 
 
                 <tr>
-                    <td>Date:</td>
-                    <td> <input type="date"><br></td>
+                    <td>Date :</td>
+                    <td  > <input type="date" ><br></td>
                 </tr>
 
                 <tr>
-                    <td>Time:</td>
-                    <td><input type="time"></td>
+                    <td>Time :</td>
+                    <td  ><input type="time"  ></td>
                 </tr>
 
 
                 <tr>
-                    <td>Range:</td>
-                    <td><input type="range"></td>
+                    <td>Range :</td>
+                    <td  ><input type="range" ></td>
                 </tr>
                 
                 
                 <tr>
                     <td></td>
 
-                    <td style="padding: 10px;"> <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br>
+                    <td style="padding: 10px;"  > <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br>
                     </td>
                 </tr>
                 
 
                 <tr>
-                    <td>Select the file:</td>
-                    <td> <input type="file" id="myfile" name="myfile"><br></td>
+                    <td>Select the file :</td>
+                    <td > <input type="file" id="myfile" name="myfile"><br></td>
                 </tr>
 
                 <tr>
-                     <td>Search google:</td>
-                     <td>   <input type="search" id="gsearch" name="gsearch"><br></td>
+                     <td>Search google :</td>
+                     <td><input type="search" id="gsearch" name="gsearch"><br></td>
                 </tr>
 
 
                 <tr>
-                    <td>Select the favorite language:</td>
-                    <td><input type="radio" id="html" name="fav_language" value="HTML">HTML</td>
+                    <td>Select the favorite language :</td>
+                    <td ><input type="radio" id="html" name="fav_language" value="HTML">HTML</td>
                     <tr>
                         <td></td>
-                        <td> <input type="radio" id="css" name="fav_language" value="CSS">CSS</td>
+                        <td > <input type="radio" id="css" name="fav_language" value="CSS">CSS</td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>            <input type="radio" id="javascript" name="fav_language" value="JavaScript">JavaScript</td>
+                        <td ><input type="radio" id="javascript" name="fav_language" value="JavaScript">JavaScript</td>
                     </tr>
                 </tr>
 
@@ -108,12 +108,106 @@
                 
 
                 <tr>
-                    <td><input type="submit" value="Submit"></td>
+                    <td ><input type="submit"  class=" btn" value="Submit"></td>
                 </tr>
             </table>
         </div>
-    </form>
+    </form> -->
 
+
+    <form action="">
+
+
+        
+        <div>
+
+            <h2>Registration form </h2><br>
+
+            <p>Kindly fill this form for register.</p><br>
+
+
+
+            <label for="fname"  >First name </label><br>
+            <input type="text" class="fname" name="fname" value="" placeholder="Enter your name"><br><br>
+
+
+
+            <label for="email"  >Email </label> <br>
+            <input type="text" class="fname" placeholder="Enter your Email" name="Email"><br><br>
+
+
+            <label for="password"  >Password </label> <br>
+            <input type="password"  class="fname" placeholder="Enter the password" name="password"><br><br>
+
+
+            <label for="age">Age </label><br>
+            <input type="number"    class="fname" placeholder="Enter your age" name="age" value="" min="0"><br><br>
+
+               
+             <label for="gender" >Gender </label><br>
+            
+            
+            <input type="radio" id="male"   name="fav_language" value="">
+            <label for="male"  >Male</label><br>
+            
+            
+            <input type="radio" id="female" style="padding: 80px;" name="fav_language" value="">
+            <label for="female" id="female">Female</label><br><br>
+      
+
+
+
+
+            <!-- <label for="checkbox" style="font-size: 20px;">checkbox :</label>
+            <input type="checkbox" style="font-size: 20px;" ><br><br> -->
+
+
+
+            <!-- <label for="color" style="font-size: 20px;">Select the color :</label>
+            <input type="color" id="favcolor"  name="favcolor"><br><br>
+             -->
+
+
+            <!-- <label for="date"  style="font-size: 20px;">Date :</label>
+            <input type="date"   id="date"><br><br>
+
+
+
+            <label for="time" style="font-size: 20px;">Time :</label>
+            <input type="time" id="time" ><br><br> -->
+
+
+
+<!-- 
+            <label for="range" style="font-size: 20px;">Range :</label>
+            <input type="range" ><br><br> -->
+
+<!-- 
+            <label for="alter" style="font-size: 20px;">Alter :</label>
+            <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br><br> -->
+
+
+        
+            <label for="file" style="font-size: 20px;">Select the favourite language :</label><br>
+            <input type="checkbox" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+
+
+            <input type="checkbox" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+
+
+
+            <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+
+            
+            <input type="submit"   class=" btn" value="Register">
+      
+          
+        </div>
+
+    </form>
 </body>
 
 </html>
