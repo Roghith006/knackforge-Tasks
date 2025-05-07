@@ -3,13 +3,123 @@
     margin: 0px;
 
 }
-h2{
+
+
+ h2{
 text-align: center;
-padding: 5px;
-margin: 5px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: medium;
 }
-div{
-    padding: 10px;
+p{
+    text-align: center;
+}
+
+
+/* div{
+    padding-left: 40%;
+    margin-top: 20px;
+
+}
+ */
+
+body{
+    background-color: aquamarine;
+    
+}
+
+/* td {
+    padding: 5px;
+}
+
+
+
+.btn{
+    background-color: rgb(146, 211, 116);
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+
+.btn:hover{
+    background-color: darkgreen;
+}
+ */
+
+ div{
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    border-radius: 5px;
+    padding: 50px;
+    border: 2px;
+   
+    
+ }
+
+
+
+form{
+    position: absolute;
+    padding-left: 40%;
+    padding-top: 30px;
+}
+ .fname{
+    text-align: left;
+    padding: 5px;
+    padding-right: 100px;
+    border-color: rgb(0, 140, 255);
+    background-color: rgb(202, 201, 201);
+    border:none;
+
+
+ }
+
+
+ /* #female{
+    padding-left:80px ;
+ } */
+
+
+#date{
+    padding: 5px;
+    border-color: blue;
+    border-radius: 3px;
+}
+
+#time{
+    padding: 5px;
+    border-color: blue;
+    border-radius: 3px;
+}
+
+
+
+.btn 
+{
+   
+    width: 100%;
+    padding: 3px;
+    background-color:rgb(67, 67, 247);;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    
+   
+   
+   
+}
+
+
+.btn:hover{
+   
+    background-color: darkseagreen;
+    font-weight: lighter;
+    transition: 0.3s;
+    cursor: pointer;
+   
 }
 
 
